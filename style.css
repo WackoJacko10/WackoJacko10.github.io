@@ -3,9 +3,10 @@
     left: 0;
     top: 0;
     width: 100%;
-    text-align: center;
-    padding: 3px;
     list-style-type: none;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
 }
 
 ul {

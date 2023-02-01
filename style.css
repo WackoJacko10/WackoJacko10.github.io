@@ -1,6 +1,6 @@
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: -1px;
     padding: 3px;
     overflow: hidden;
     background-color: #333;

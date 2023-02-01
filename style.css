@@ -9,7 +9,10 @@
     color: white;
 }
 
-.links {
+li {
     list-style-type: none;
+}
+
+a {
     display: inline;
 }

@@ -9,12 +9,16 @@
     color: white;
 }
 
+.links {
+    color: white;
+}
+
 li {
     list-style-type: none;
 }
 
 a {
     display: inline;
-    color: white;
+
     text-decoration: none;
 }

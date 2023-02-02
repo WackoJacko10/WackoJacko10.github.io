@@ -35,9 +35,8 @@ body {
 }
 
 .links {
-
     list-style-type: none;
-    display: inline;
+    display: flex;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -45,11 +44,15 @@ body {
     text-align: center;
     background-color: #0d0b0d;
     padding: 6px;
+
 }
 
-.links a {
-    display: inline;
+.links li a {
     color: white;
     text-decoration: none;
+    text-align: center;
+    display: inline;
 }
+
+
 

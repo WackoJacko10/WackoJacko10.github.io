@@ -1,19 +1,19 @@
-ul {
+#nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 50px;
     overflow: hidden;
     background-color: #0d0b0d;
     position: sticky; /*fixes the nav bar to the top of the browser*/
     top: 0;
-    width: 100%;
+    width: 110%;
 }
 
-li {
+#nav li {
     float: left;
 }
 
-li a {
+#nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -21,7 +21,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+#nav li a:hover {
     background-color: #282128;
 }
 

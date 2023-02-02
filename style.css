@@ -1,10 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #0d0b0d;
-    position: sticky; /*fixes the nav bar to the top of the browser*/
+    position: sticky;
     top: 0;
     width: 100%;
 }
@@ -29,23 +33,23 @@ body {
     background-color: #282128;
     margin: 0;
 }
-/*
 
-.footer {
+.links {
+
+    list-style-type: none;
+    display: inline;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding: 3px;
     background-color: #0d0b0d;
-    list-style-type: none;
-    display: inline;
+    padding: 6px;
 }
 
-a {
+.links a {
     display: inline;
     color: white;
     text-decoration: none;
 }
-*/
+

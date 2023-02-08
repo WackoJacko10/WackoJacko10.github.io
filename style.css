@@ -1,9 +1,12 @@
+/*Targets Everything*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: trebuchet ms, sans-serif;
 }
+
+/*Nav bar style start*/
 .nav ul {
     list-style-type: none;
     margin: 0;
@@ -30,12 +33,39 @@
 .nav li a:hover {
     background-color: #282128;
 }
+/*Nav bar style end*/
 
+/*Main style start*/
 body {
     background-color: #282128;
     margin: 0;
 }
 
+.top-heading {
+    margin-top: 50px;
+}
+
+main {
+    background-color: #433843;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding: 25px;
+}
+
+.main-body {
+    position: center;
+}
+.TP-list {
+    list-style-type: circle;
+    padding: 2px;
+}
+
+
+/*Main style end*/
+
+/*Footer style starts*/
 footer{
     position: fixed;
     bottom: 0;
@@ -75,3 +105,4 @@ footer{
 .social a:hover i{
     color: #887191;
 }
+/*Footer style end*/

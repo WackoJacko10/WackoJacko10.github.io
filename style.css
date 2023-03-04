@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: trebuchet ms, sans-serif;
 }
 
@@ -42,7 +41,7 @@ body {
 }
 
 .top-heading {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 main {
@@ -52,6 +51,7 @@ main {
     margin-right: auto;
     width: 75%;
     padding: 25px;
+    margin-bottom: 0%;
 }
 
 .main-body {
@@ -62,19 +62,23 @@ main {
     padding: 2px;
 }
 
+video {
+    display: block;
+    margin: 0 auto;
+}
 
 /*Main style end*/
 
 /*Footer style starts*/
 footer{
-    position: fixed;
+    position: sticky;
     bottom: 0;
     left: 0;
     right: 0;
     background: #0d0b0d;
     height: auto;
-    width: 100vw;
-    padding-top: 25px;
+    width: 100%;
+    padding: 0.5px;
     color: #ffffff;
 }
 
@@ -93,7 +97,7 @@ footer{
 .social a {
     text-decoration: none;
     color: #fff;
-    padding: 5px;
+    padding: 3px;
     border-radius: 50%;
 }
 .social a i {
